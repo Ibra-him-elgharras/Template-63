@@ -304,3 +304,64 @@ header nav .form i{
     color: #777;
 }
 /* end services */
+/* start desing */
+.desing{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    height: 600px;
+    position: relative;
+    background-image: url(../images/desing.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.desing::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00ff6225;
+}
+.desing .image,
+.desing .text{
+    position: relative;
+    z-index: 2;
+    flex: 1px;
+}
+.desing .image{
+    text-align: center;
+    overflow: hidden;
+}
+.desing .image img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: -150px;
+}
+.desing .text{
+    color: black;
+    padding: 50px;
+    background-color: var(--transparent-color);
+}
+.desing .text h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.desing .text ul{
+    
+}
+.desing .text ul li{
+    padding: 15px 0;
+}
+.desing .text ul li::before{
+    font-family: "Font Awesome 5 Free ";
+    content: "\f108";
+    font-weight: 900;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+/* end desing */
