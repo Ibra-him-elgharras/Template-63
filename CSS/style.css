@@ -365,3 +365,31 @@ header nav .form i{
     top: 1px;
 }
 /* end desing */
+/* start portolio */
+.portfolio{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+.portfolio .shuffle{
+    display: flex;
+    justify-content: center;
+}
+.portfolio .shuffle li{
+    padding: 10px;
+}
+.portfolio .shuffle li.active{
+    background-color: var(--first-color);
+    color: white;
+}
+.portfolio .imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.portfolio .imgs-container .box{
+    flex-basis: 25%;
+}
+.portfolio .imgs-container .box .img{
+    max-width: 100%;
+}
+/* end portfolio */
